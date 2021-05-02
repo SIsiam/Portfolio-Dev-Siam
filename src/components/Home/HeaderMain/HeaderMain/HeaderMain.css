@@ -1,0 +1,53 @@
+.name-design{
+    font-size: 60px;
+}
+.image-setting{
+   border-radius: 10px;
+   height: 500px;
+}
+.skill-container {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.follow-me{
+    margin-left: 100px;
+}
+
+.icon-settings li {
+    list-style: none;
+    align-items: center;
+    margin: 20px 0px 10px 40px;
+}
+.description{
+    font-size:20px;
+}
+.icon-color a{
+    color:rgb(77, 255, 231) !important ; 
+}
+
+.home-button {
+    border-radius: 50px;
+    padding: 10px 35px 10px 35px;
+    /* color: rgb(233, 66, 248); */
+    color: white;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 576px) {
+   body {
+      height: 100%;
+     background-color: #1d293a;
+      
+    }
+    .image-setting{
+        margin-top: 8%;
+        margin-left: -7%;
+    }
+    .footer-setting{
+        margin-top: 40%;
+
+    }
+
+  }

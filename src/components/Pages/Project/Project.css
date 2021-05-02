@@ -1,0 +1,17 @@
+.card{
+    background: #222;
+    border-radius: 15px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.card:hover{
+    background: crimson;
+}
+
+.card-box{
+    transition: all 0.8s ease;
+}
+.card:hover  .card-box{
+    transform: scale(1.05);
+}

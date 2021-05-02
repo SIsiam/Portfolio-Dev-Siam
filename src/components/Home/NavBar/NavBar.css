@@ -1,0 +1,22 @@
+.logo-samir{
+    font-size: 30px;
+}
+.my-nav .my-nav-link{
+    border-bottom: 2px solid transparent;
+    }
+.my-nav:hover .my-nav-link{
+border-bottom : 3px solid #fde930;
+}
+
+.navbar {
+    width: 100%;
+    color: white;
+  }
+  .navbar li {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+  }

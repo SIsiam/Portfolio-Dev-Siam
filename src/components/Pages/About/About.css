@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.about {
+    background-color:#080808ec;
+    color: white;
+}
+.technology {
+    display: flex;
+    flex-wrap: wrap;
+}
+.technology span {
+    background: #5271a0;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    font-size: 15px;
+    height: 40px;
+    color: white;
+    text-align: center ;
+}
+
+
+/* skills section styling */
+
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.my-skill p{
+    text-align: justify;
+}
+.More-skil{
+    display: inline-block;
+    background: crimson;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.More-skil:hover{
+    color: crimson;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: crimson; */
+    background: rgb(220, 20, 170);
+}
+.html::before{
+    width: 93%;
+}
+.css::before{
+    width: 85%;
+}
+.js::before{
+    width: 88%;
+}
+.jq::before{
+    width: 80%;
+}
+.bootstrap::before{
+    width: 91%;
+}
+.react::before{
+    width: 80%;
+}
+.mongo::before{
+    width: 70%;
+}
+.node::before{
+    width: 77%;
+}
+.express::before{
+    width: 70%;
+}
+
+.py::before{
+    width: 55%;
+}
