@@ -53,22 +53,23 @@ body {
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+span{
     font-weight: 500;
     font-size: 18px;
 }
 .line{
-    height: 5px;
+    height: 7px;
     width: 100%;
+    border-radius: 50px;
     background: lightgrey;
     position: relative;
 }
@@ -78,8 +79,9 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    /* background: crimson; */
-    background: rgb(220, 20, 170);
+    background: crimson;
+    /* background: rgb(220, 20, 170);
+    background: rgb(56, 230, 206); */
 }
 .html::before{
     width: 93%;

@@ -55,7 +55,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>HTML</span>
-                                        <span>93%</span>
+                                        {/* <span>93%</span> */}
                                     </div>
                                     <div className="line html"></div>
                                 </div>
@@ -63,7 +63,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>CSS</span>
-                                        <span>85%</span>
+                                        {/* <span>85%</span> */}
                                     </div>
                                     <div className="line css"></div>
                                 </div>
@@ -71,7 +71,7 @@ const About = () => {
                                 <div className="bars">
                                     <div class="info">
                                         <span>JavaScript</span>
-                                        <span>89%</span>
+                                        {/* <span>89%</span> */}
                                     </div>
                                     <div className="line js"></div>
                                 </div>
@@ -80,7 +80,7 @@ const About = () => {
                                 <div className="bars">
                                     <div class="info">
                                         <span>jQuery</span>
-                                        <span>80%</span>
+                                        {/* <span>80%</span> */}
                                     </div>
                                     <div class="line jq"></div>
                                 </div>
@@ -89,7 +89,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>bootstrap</span>
-                                        <span>91%</span>
+                                        {/* <span>91%</span> */}
                                     </div>
                                     <div className="line bootstrap"></div>
                                 </div>
@@ -97,7 +97,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>Material Ui</span>
-                                        <span>85%</span>
+                                        {/* <span>85%</span> */}
                                     </div>
                                     <div className="line bootstrap"></div>
                                 </div>
@@ -106,7 +106,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>API</span>
-                                        <span>85%</span>
+                                        {/* <span>85%</span> */}
                                     </div>
                                     <div className="line bootstrap"></div>
                                 </div>
@@ -115,7 +115,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>MongoDB</span>
-                                        <span>70%</span>
+                                        {/* <span>70%</span> */}
                                     </div>
                                     <div className="line mongo"></div>
                                 </div>
@@ -123,7 +123,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>Express.Js</span>
-                                        <span>70%</span>
+                                        {/* <span>70%</span> */}
                                     </div>
                                     <div className="line express"></div>
                                 </div>
@@ -131,7 +131,7 @@ const About = () => {
                                 <div className="bars">
                                     <div className="info">
                                         <span>React.Js</span>
-                                        <span>80%</span>
+                                        {/* <span>80%</span> */}
                                     </div>
                                     <div className="line react"></div>
                                 </div>
@@ -140,7 +140,7 @@ const About = () => {
                                 <div className="bars">
                                     <div class="info">
                                         <span>Node.Js</span>
-                                        <span>77%</span>
+                                        {/* <span>77%</span> */}
                                     </div>
                                     <div className="line node"></div>
                                 </div>
@@ -149,7 +149,7 @@ const About = () => {
                                 <div className="bars">
                                     <div class="info">
                                         <span>Python</span>
-                                        <span>55%</span>
+                                        {/* <span>55%</span> */}
                                     </div>
                                     <div className="line py"></div>
                                 </div>
@@ -157,7 +157,7 @@ const About = () => {
                                 <div className="bars">
                                     <div class="info">
                                         <span> C </span>
-                                        <span>55%</span>
+                                        {/* <span>55%</span> */}
                                     </div>
                                     <div className="line py"></div>
                                 </div>
