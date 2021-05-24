@@ -1,15 +1,16 @@
-.logo-samir{
-    font-size: 30px;
-}
-.my-nav .my-nav-link{
-    border-bottom: 2px solid transparent;
+
+.my-nav-link{
+    border-bottom: 4px solid transparent;
+transition-delay: 0.1s;
+
     }
-.my-nav:hover .my-nav-link{
+
+.my-nav-link:hover {
 border-bottom : 3px solid #fde930;
 }
 
 .navbar {
-    width: 100%;
+    /* width: 100%; */
     color: white;
   }
   .navbar li {

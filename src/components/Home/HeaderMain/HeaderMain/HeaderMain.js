@@ -23,12 +23,11 @@ const HeaderMain = () => {
 
     return (
 
-        <div className='container header-container'>
+        <div className='container' style={{overflow:'hidden'}}>
+
             <div className="row mt-2" >
-
-                <div className="col-md-6 pl-5" data-aos="fade-right">
-                    <img className='image-setting' src={picture} alt="Siam" />
-
+                <div className="col-md-6 col-sm-6 col-lg-6" data-aos="fade-right">
+                    <img className='image-setting img-fluid' src={picture} alt="Siam" />
                     <div className="text-white d-flex mt-5 icon-settings">
                         <li className='icon-color'>
                             <a href="https://github.com/sisiam/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon style={{ fontSize: '40px' }} icon={['fab', 'github']} /> </a>
@@ -50,12 +49,10 @@ const HeaderMain = () => {
                     </div>
                 </div>
 
-
-
-                <div className="col-md-6" data-aos="fade-left">
+                <div className="col-md-6 col-sm-6 col-lg-6" data-aos="fade-left">
                     <div className='text-light offset-md-1 resume-button'>
 
-                        <Typical className="skill-container ml-2"
+                        <Typical className="skill-container"
                             steps={[
                                 "React Developer", 3200,
                                 'Web Developer', 3000,
@@ -69,46 +66,34 @@ const HeaderMain = () => {
                         <div className="">
                             <h1 className='name-design'>Shahidul Islam Siam</h1>
                             <h3 style={{ 'color': 'rgb(233, 66, 248)' }}>Front End Developer</h3>
-                            <p className='description pb-3'>Interested in working together ?.Feel free to contact me for any project or collaboration..</p>
+                            <p className='description pb-3'>Interested in working together. Feel free to contact me for any project or collaboration..</p>
                         </div>
 
                         <div className="">
-
                             <a href="https://drive.google.com/file/d/1u3UWADSdI3Yu9SdpxqOWUkbt3fDwp4qO/view?usp=sharing"
                                 target="_blank" rel="noopener noreferrer" >
                                 <button className="btn btn-outline-info home-button">
                                     Download RESUME
                             </button>
                             </a>
-
                             <Link to="/contact">
                                 <button type="button" className="btn btn-outline-secondary text-light home-button">
                                     Contact With Me
                             </button>
                             </Link>
-
                         </div>
-
-
                     </div>
-
-
                 </div>
-
-
             </div>
+
 
             <div className="mt-5">
                 <HeaderService />
             </div>
 
-
             <div className="mt-5">
                 <FunFact />
             </div>
-
-
-
         </div>
 
     );

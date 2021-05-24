@@ -2,7 +2,7 @@
     font-size: 60px;
 }
 .image-setting{
-   border-radius: 10px;
+   border-radius: 20px;
    height: 500px;
 }
 .skill-container {
@@ -29,25 +29,14 @@
 .home-button {
     border-radius: 50px;
     padding: 10px 35px 10px 35px;
-    /* color: rgb(233, 66, 248); */
     color: white;
     margin: 10px;
 }
 
 
-@media only screen and (max-width: 576px) {
-   body {
-      height: 100%;
-     background-color: #1d293a;
-      
-    }
+ @media only screen and (max-width: 576px) {
     .image-setting{
-        margin-top: 8%;
-        margin-left: -7%;
+   height: 400px;
     }
-    .footer-setting{
-        margin-top: 40%;
-
-    }
-
   }
+  

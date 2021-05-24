@@ -20,125 +20,51 @@ const NavBar = () => {
     // }, []);
     return (
         <div className='container'>
+            <nav class="navbar navbar-expand-lg navbar-light my-nav mb-5">
+                <div className="container-fluid">
 
-            <nav className="navbar navbar-expand">
-                <div className="container">
-                    <Link to="/" className="navbar-brand">
-                        <img src={logo} className="rounded " width="100px" height="70px" alt="" />
-                    </Link>
-
-                    <ul>
-                        <div class="navbar" id="myTopnav">
-                            <li className="nav-item my-nav">
-                                <Link to="/" className="nav-link my-nav-link">
-                                    <button className="btn btn btn-rounded text-light"> Home </button>
-                                </Link>
-                            </li>
-
-                            <li className="nav-item my-nav">
-                                <Link to="/projects" className="nav-link my-nav-link">
-                                    <button className="btn text-light"> Projects </button>
-                                </Link>
-                            </li>
-
-
-                            <li className="nav-item my-nav">
-                                <Link to="/blog" className="nav-link my-nav-link ">
-                                    <button className="btn text-light"> Blog </button>
-                                </Link>
-                            </li>
-
-                            <li className="nav-item my-nav">
-                                <Link to="/about" className="nav-link my-nav-link">
-                                    <button className="btn text-light"> About </button>
-                                </Link>
-                            </li>
-
-                            <li className="nav-item my-nav">
-                                <Link to="/contact" className="nav-link my-nav-link">
-                                    <button className="btn text-light"> Contact </button>
-                                </Link>
-                            </li>
-
-                        </div>
-                    </ul>
-
-                </div>
-            </nav>
-
-
-            {/* main start  */}
-
-{/* 
-
-            <nav className={(isSticky || isCollapsed) ? "slide in show shadow-sm navbar navbar-expand-sm bg-white navbar-light py-1  fixed-top" : "slide out show navbar navbar-expand-sm navbar-light "}>
-                <div className="container">
-                    <Link className="" to="/">
-                        <img src={logo} style={{ width: '120px' }} alt="" />
-                    </Link>
-                    <button onClick={
-                        () => setCollapsed(!isCollapsed ? 'show' : null)} className="navbar-toggler d-lg-none mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                    <a class="navbar-brand text-light p-3" href="/">
+                        <Link to="/" className="navbar-brand">
+                            <img src={logo} className="rounded " width="100px" height="70px" alt="" />
+                        </Link>
+                    </a>
+                    <button className="navbar-toggler bg-warning text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div className={`collapse navbar-collapse ${isCollapsed}`} id="collapsibleNavId">
+                    <div className="collapse navbar-collapse container" id="navbarScroll">
+                        <ul className="navbar-nav ms-auto navbar-nav-scroll">
 
-                        <ul>
+                            <li className="nav-item my-nav">
+                                <Link to="/" className="nav-link">
+                                    <button className="btn btn btn-rounded text-light my-nav-link"> Home </button>
+                                </Link>
+                            </li>
+                            <li className="nav-item my-nav">
+                                <Link to="/projects" className="nav-link ">
+                                    <button className="btn text-light my-nav-link"> Projects </button>
+                                </Link>
+                            </li>
 
-                            <div class="navbar" id="myTopnav">
-                                <li className="nav-item my-nav">
-                                    <Link to="/" className="nav-link my-nav-link">
-                                        <button className="btn btn btn-rounded text-light"> Home </button>
-                                    </Link>
-                                </li>
-
-                                <li className="nav-item my-nav">
-                                    <Link to="/projects" className="nav-link my-nav-link">
-                                        <button className="btn text-light"> Projects </button>
-                                    </Link>
-                                </li>
-
-
-                                <li className="nav-item my-nav">
-                                    <Link to="/blog" className="nav-link my-nav-link ">
-                                        <button className="btn text-light"> Blog </button>
-                                    </Link>
-                                </li>
-
-                                <li className="nav-item my-nav">
-                                    <Link to="/about" className="nav-link my-nav-link">
-                                        <button className="btn text-light"> About </button>
-                                    </Link>
-                                </li>
-
-                                <li className="nav-item my-nav">
-                                    <Link to="/contact" className="nav-link my-nav-link">
-                                        <button className="btn text-light"> Contact </button>
-                                    </Link>
-                                </li>
-
-                            </div>
+                            <li className="nav-item my-nav">
+                                <Link to="/blogs" className="nav-link ">
+                                    <button className="btn text-light my-nav-link"> Blog </button>
+                                </Link>
+                            </li>
+                            <li className="nav-item my-nav">
+                                <Link to="/about" className="nav-link">
+                                    <button className="btn text-light my-nav-link "> About </button>
+                                </Link>
+                            </li>
+                            <li className="nav-item my-nav">
+                                <Link to="/contact" className="nav-link ">
+                                    <button className="btn text-light my-nav-link"> Contact </button>
+                                </Link>
+                            </li>
                         </ul>
-
                     </div>
                 </div>
             </nav>
-
- */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     );
 };

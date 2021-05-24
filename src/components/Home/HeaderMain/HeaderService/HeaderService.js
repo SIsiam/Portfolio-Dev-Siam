@@ -12,41 +12,33 @@ const HeaderService = () => {
 
     }, [])
 
-
-
-
-
-
     return (
         <section class="services mt-5">
             <h2 class="title-style">What I Do</h2>
             <div className="row" data-aos="fade-up-left">
 
-                <div className="my-card col-md">
+                <div className="my-card col-md col-sm-4 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faDesktop} />
                         <h3 class="text">Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
+                        <p>Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it</p>
                     </div>
                 </div>
 
-                <div className="my-card col-md">
+                <div className="my-card col-md col-sm-4 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faExternalLinkAlt} />
                         <h3 class="text">MERN Stack Development</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
+                        <p>Code is read more than it is written.Developer is the one who creates bugs defects mostly and working code rarely</p>
                     </div>
 
                 </div>
 
-                <div class="my-card col-md">
+                <div class="my-card  col-md col-sm-4 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faPencilRuler} />
                         <h3 class="text">Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                            </p>
+                        <p>A successful website does three things: It attracts the right kinds of visitors.Guides them to the main services or product you offer.Collect Contact details for future ongoing relation.</p>
                     </div>
                 </div>
 
