@@ -11,9 +11,9 @@ import Ticket2 from '../images/Railway2.PNG';
 import Ticket3 from '../images/Railway3.PNG';
 
 
-import IplTeam from '../images/Ipl.PNG';
-import IplTeam2 from '../images/ipl2.PNG';
-import IplTeam3 from '../images/Ipl.PNG';
+import agency from '../images/agency-1.PNG';
+import agency2 from '../images/agency-2.PNG';
+import agency3 from '../images/agency-3.PNG';
 
 import fancy from '../images/fancy.PNG';
 import fancy2 from '../images/fancy2.PNG';
@@ -62,12 +62,12 @@ const ProjectData = [
 
     {
         id: 4,
-        title: 'Ipl Team Maker',
-        picture: IplTeam,
-        picture2: IplTeam2,
-        picture3: IplTeam3,
-        description: 'Make A Ipl Team. Select your Favourite Player And Cost Team Amount',
-        technologyUse: "Html, Css, Javascript, React, material ui & Front-End Package",
+        title: 'E Commerce Applications',
+        picture: agency,
+        picture2: agency2,
+        picture3: agency3,
+        description: 'choose your favorite gadget and fill up the full information then You can be order now',
+        technologyUse: "Front-end web development with React, backend Use - Mongodb, Node, Express ",
         GithubLink: 'https://github.com/SIsiam/ipl-team-maker',
         liveLink: 'https://kkr-team-maker.netlify.app/',
     },

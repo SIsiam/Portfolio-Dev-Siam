@@ -11,13 +11,16 @@ const Projects = () => {
         <div style={{ backgroundColor: '#080808ec', height: 'auto' }}>
             <NavBar></NavBar>
             <div className="container">
-
                 <div className='row mt-5'>
                     {
                         ProjectData.map(project => <Project project={project} key={project.id} />)
                     }
                 </div>
             </div>
+            <div className="text-center p-3 m-3">
+                <a style={{textDecoration:'none', color:'white', fontSize:'20px'}} className="More-skil" href="https://github.com/sisiam/" target="_blank" rel="noopener noreferrer">More Project</a>
+            </div>
+
             <Footer></Footer>
         </div>
     );

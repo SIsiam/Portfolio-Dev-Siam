@@ -70,11 +70,11 @@ const HeaderMain = () => {
                         </div>
 
                         <div className="">
-                            <a href="https://drive.google.com/file/d/1u3UWADSdI3Yu9SdpxqOWUkbt3fDwp4qO/view?usp=sharing"
+                            <a href="https://drive.google.com/file/d/1hPDrmNSzqG7vWsYK6aPKLOLUqVacrYwU/view?usp=sharing"
                                 target="_blank" rel="noopener noreferrer" >
                                 <button className="btn btn-outline-info home-button">
                                     Download RESUME
-                            </button>
+                                </button>
                             </a>
                             <Link to="/contact">
                                 <button type="button" className="btn btn-outline-secondary text-light home-button">

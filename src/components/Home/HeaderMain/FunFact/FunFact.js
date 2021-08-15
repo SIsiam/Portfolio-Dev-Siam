@@ -22,7 +22,7 @@ const FunFact = () => {
                     <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faClock} />
                     <div className="mt-3">
                         <h5>Working Hours</h5>
-                        <h2>6,800</h2>
+                        <h2>11,800</h2>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ const FunFact = () => {
                     <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faStar} />
                     <div className="mt-3">
                         <h5>Award's Won</h5>
-                        <h2>34</h2>
+                        <h2>80</h2>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const FunFact = () => {
                     <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faPrescriptionBottle} />
                     <div className="mt-3">
                         <h5>Coffee Consumed</h5>
-                        <h2>197</h2>
+                        <h2>567</h2>
                     </div>
                 </div>
 

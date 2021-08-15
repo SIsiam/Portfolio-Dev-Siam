@@ -17,7 +17,7 @@ const HeaderService = () => {
             <h2 class="title-style">What I Do</h2>
             <div className="row" data-aos="fade-up-left">
 
-                <div className="my-card col-md col-sm-4 col-lg">
+                <div className="my-card col-md-4 col-sm-6 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faDesktop} />
                         <h3 class="text">Web Development</h3>
@@ -25,7 +25,7 @@ const HeaderService = () => {
                     </div>
                 </div>
 
-                <div className="my-card col-md col-sm-4 col-lg">
+                <div className="my-card col-md-4 col-sm-6 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faExternalLinkAlt} />
                         <h3 class="text">MERN Stack Development</h3>
@@ -34,7 +34,7 @@ const HeaderService = () => {
 
                 </div>
 
-                <div class="my-card  col-md col-sm-4 col-lg">
+                <div class="my-card  col-md-4 col-sm-6 col-lg">
                     <div class="box">
                         <FontAwesomeIcon style={{ fontSize: '25px' }} icon={faPencilRuler} />
                         <h3 class="text">Web Design</h3>
